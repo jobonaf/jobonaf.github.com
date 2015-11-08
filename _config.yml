@@ -9,5 +9,5 @@ pygments: true
 permalink: '/:title'
 markdown: rdiscount
 
-exclude: [README.md,Rmd,R,figure,tmp]
+exclude: [README.md,figure,tmp]
 
