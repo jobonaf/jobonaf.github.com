@@ -1,0 +1,13 @@
+title: la pescheRia
+tagline: about pesco and other R packages
+owner: Giovanni Bonafe'
+link: https://github.com/jobonaf
+copyright: Copyright Giovanni Bonafe' 2015
+
+
+pygments: true
+permalink: '/:title'
+markdown: rdiscount
+
+exclude: [README.md,Rmd,R,figure,tmp]
+
