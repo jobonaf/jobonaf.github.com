@@ -4,7 +4,7 @@ owner: Giovanni Bonafe'
 link: https://github.com/jobonaf
 copyright: Copyright Giovanni Bonafe' 2015
 
-
+highlighter: pygments
 pygments: true
 permalink: '/:title'
 markdown: rdiscount
