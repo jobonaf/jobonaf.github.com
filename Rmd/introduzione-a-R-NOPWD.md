@@ -276,7 +276,7 @@ esercizio #12 [quesito]
 ```r
 ?corPlot
 ```
-δ�?νδρον [den'-dron] _albero_
+[den'-dron] _albero_
 
 esercizio #12 [soluzione]
 ===
