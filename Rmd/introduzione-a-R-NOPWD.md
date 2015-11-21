@@ -1,6 +1,6 @@
 ---
 title: Introduzione a R per QA
-author: Giovanni Bonafè
+author: Giovanni BonafÃ¨
 ---
 
 esercizio #1
@@ -60,7 +60,7 @@ C <- c(12,45,3,B)
 D <- 3:10
 E <- D^2
 ```
-> che c'è dentro C, D ed E?
+> che c'Ã¨ dentro C, D ed E?
 
 esercizio #3 [soluzione e altro quesito]
 ===
@@ -205,7 +205,7 @@ Data[c(8,108),c("Name","PM10")]
 
 esercizio #7 [quesito]
 ===
-> dall'oggetto ```Data``` (che è un ```data.frame``` che contiene i dati di tutte le stazioni) costruiamo un ```subset``` contenente solo i dati di ```CENTO```.
+> dall'oggetto ```Data``` (che Ã¨ un ```data.frame``` che contiene i dati di tutte le stazioni) costruiamo un ```subset``` contenente solo i dati di ```CENTO```.
 
 
 esercizio #7 [soluzioni]
@@ -347,13 +347,13 @@ library(arpautils)
 ```r
 help(aot)
 ```
-in fondo alla pagina di help di `aot` c'è un link **Index**
+in fondo alla pagina di help di `aot` c'Ã¨ un link **Index**
 oppure:
 
 ```r
 help.search()
 ```
-dove c'è un link **Packages**
+dove c'Ã¨ un link **Packages**
 
 > come faccio a connettermi al DB dei dati QA?
 
@@ -362,9 +362,9 @@ esercizio #16 [soluzione]
 
 
 ```r
-db_usr = # chiedere a Bonafè
-db_pwd = # chiedere a Bonafè
-db_name = # chiedere a Bonafè
+db_usr = # chiedere a BonafÃ¨
+db_pwd = # chiedere a BonafÃ¨
+db_name = # chiedere a BonafÃ¨
 cfg <- dbqa.config(db_usr, db_pwd, db_name)
 con <- dbqa.connect(db_usr, db_pwd, db_name)
 ```
@@ -379,7 +379,7 @@ esercizio #17 [soluzione]
 ```r
 dbqa.view.staz(con)
 ```
-oppure lo metto in una matrice, così poi posso riordinarla o trasporla o farne ciò che voglio...
+oppure lo metto in una matrice, cosÃƒÂ¬ poi posso riordinarla o trasporla o farne ciÃ² che voglio...
 
 ```r
 ana <- dbqa.view.staz(con,FUN=return)
@@ -419,7 +419,7 @@ estraggo NOx dalla stessa stazione
 ```r
 NOx.MO <- dbqa.get.datastaz(con, ts.range=c("2014-01-01", "2014-12-31"), id.staz=4000002, id.param=9, tstep="H")
 ```
-> che rapporto c'è tra NO2 e NOx a Modena Giardini?
+> che rapporto c'Ã¨ tra NO2 e NOx a Modena Giardini?
 
 suggerimento:
 
@@ -441,7 +441,7 @@ linearRelation(mydata, period="weekly")
 
 esercizio #20
 ===
-per semplificare le estrazioni più tipiche ho preparato la funzione `get.AQdata` (non ancora inclusa in `arpautils`)
+per semplificare le estrazioni piÃƒÂ¹ tipiche ho preparato la funzione `get.AQdata` (non ancora inclusa in `arpautils`)
 
 ```r
 source("/home/giovanni/R/projects/intro-R/R/datAqPeriod.R")
@@ -472,5 +472,5 @@ med3 <- tapply(X=PM$PM10,
                           PM$PROVINCIA),
                FUN=mean, na.rm=T)
 ```
-> che differenza c'è tra `med1`, `med2` e `med3`?
+> che differenza c'Ã¨ tra `med1`, `med2` e `med3`?
 
