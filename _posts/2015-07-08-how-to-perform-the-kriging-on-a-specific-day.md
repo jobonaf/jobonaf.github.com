@@ -9,7 +9,7 @@ some of the commands used here have been already used in ```demo(prepare.day)```
 
 First, we load the needed packages.
 
-```r
+```{r}
 require(pesco)
 library(fields)
 library(sp)
