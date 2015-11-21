@@ -7,7 +7,7 @@ copyright: Copyright Giovanni Bonafe' 2015
 highlighter: pygments
 pygments: true
 permalink: '/:title'
-markdown: rdiscount
+markdown: kramdown
 
 exclude: [README.md,"*.R","*.Rmd",figure,tmp]
 
