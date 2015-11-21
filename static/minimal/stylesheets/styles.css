@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 p {
-   font-family: 'CyanotypeRegular';
+   font-family: 'AaarghNormal';
    font-weight: normal;
 } 
 
 body {
   padding:50px;
   color:#777;
-   font-family: 'CyanotypeRegular';
+   font-family: 'AaarghNormal';
   font-weight:300;
 }
 
@@ -75,7 +75,7 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+   font-family: 'AverageMonoRegular';
   color:#333;
   font-size:12px;
 }
