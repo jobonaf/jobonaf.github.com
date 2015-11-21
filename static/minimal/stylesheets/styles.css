@@ -3,12 +3,12 @@
 p {
    font-family: 'CyanotypeRegular';
    font-weight: normal;
-   font-style: italic;
 } 
 
 body {
   padding:50px;
   color:#777;
+   font-family: 'CyanotypeRegular';
   font-weight:300;
 }
 
